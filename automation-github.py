@@ -2,6 +2,8 @@ import git
 
 studentName = "azka"
 teacherName = "kandika"
+repo_path = "D:/Koding Next/06 - Work Project/github/TestingforWork"
+
 
 def git_pull_push(repo_path, student, teacher):
   try:
@@ -16,5 +18,4 @@ def git_pull_push(repo_path, student, teacher):
   except Exception as e:
     print(f"Terjadi kesalahan: {str(e)}")
 
-repo_path = "D:/Koding Next/06 - Work Project/github/TestingforWork"
 git_pull_push(repo_path, studentName, teacherName)
