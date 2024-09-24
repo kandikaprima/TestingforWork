@@ -1,7 +1,7 @@
 import git
 
-studentName = "azka"
-teacherName = "kandika"
+studentName = "kandika Prima"
+teacherName = "Putra"
 repo_path = "D:/Koding Next/06 - Work Project/github/TestingforWork"
 
 
